@@ -50,7 +50,7 @@ class FaissRetriever:
         D, I = self.index.search(query_embedding, top_k)
         df_result = pd.DataFrame({'distances': D[0], 'ann': I[0]})
         df_merged = pd.merge(df_result, self.df, left_on='ann', right_index=True)
-        return df_merged    
+        return df_merged  
 
 
 df = DatasetLoader("data/wiki_movie_plots_deduped.csv", 100).load()
