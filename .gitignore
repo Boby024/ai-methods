@@ -140,3 +140,5 @@ cython_debug/
 rag_movies/venv
 rag_movies/data
 rag_movies/test.py
+rag_movies/faiss_index.index
+rag_movies/faiss_metadata.csv
