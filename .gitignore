@@ -142,3 +142,8 @@ rag_movies/data
 rag_movies/test.py
 rag_movies/faiss_index.index
 rag_movies/faiss_metadata.csv
+
+# automated_document_analysis
+automated_document_analysis/venv
+ragautomated_document_analysis_movies/data
+automated_document_analysis/test.py
